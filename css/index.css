@@ -69,6 +69,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* Added Padding */
+    padding-top: 20px;
 }
 
 .top-content {
@@ -76,7 +78,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -143,4 +144,135 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Stuff I added */
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation nav a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+hr {
+    border: .5px dashed black;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-content img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.top-content .box {
+    width: 48%;
+    padding: 15px 0px;
+    border-bottom: .5px dashed black;
+    margin: 5px 0px;
+}
+
+.top-content .box button{
+    text-decoration: none;
+    padding: 9px 27px;
+    background: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+
+}
+
+.middle-content {
+    border-top: 0.5px dashed black;
+    padding-top: 25px;
+}
+
+.index-page .bottom-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.index-page .middle-content .boxes .one {
+    background-color: teal;
+}
+
+.index-page .middle-content .boxes .two {
+    background-color: gold;
+}
+
+.index-page .middle-content .boxes .three {
+    background-color: cadetblue;
+}
+
+.index-page .middle-content .boxes .four {
+    background-color: coral;
+}
+
+.index-page .middle-content .boxes .five {
+    background-color: crimson;
+}
+
+.index-page .middle-content .boxes .six {
+    background-color: forestgreen;
+}
+
+.index-page .middle-content .boxes .seven {
+    background-color: darkorchid;
+}
+
+.index-page .middle-content .boxes .eight {
+    background-color: hotpink;
+}
+
+.index-page .middle-content .boxes .nine {
+    background-color: indigo;
+}
+
+.index-page .middle-content .boxes .ten {
+    background-color: dodgerblue;
+}
+
+/* Contact Form */
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.contact-form .box {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.contact-form .box input {
+    float: right;
+}
+
+.contact-form .textarea input{
+    height: 100px;
+    width: 400px;
 }
